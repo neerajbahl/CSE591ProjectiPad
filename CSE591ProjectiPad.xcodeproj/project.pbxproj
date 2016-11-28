@@ -15,6 +15,8 @@
 		211D71BF1CD0D8F600876426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211D71BD1CD0D8F600876426 /* LaunchScreen.storyboard */; };
 		211D71CA1CD0D8F600876426 /* CSE591ProjectiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D71C91CD0D8F600876426 /* CSE591ProjectiPadTests.swift */; };
 		211D71D51CD0D8F600876426 /* CSE591ProjectiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D71D41CD0D8F600876426 /* CSE591ProjectiPadUITests.swift */; };
+		211D71E31CD0D92400876426 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D71E21CD0D92400876426 /* TaskManager.swift */; };
+		217810F31CD7237B0001E4DF /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217810F21CD7237B0001E4DF /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		211D71D01CD0D8F600876426 /* CSE591ProjectiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSE591ProjectiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		211D71D41CD0D8F600876426 /* CSE591ProjectiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE591ProjectiPadUITests.swift; sourceTree = "<group>"; };
 		211D71D61CD0D8F600876426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211D71E21CD0D92400876426 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		217810F21CD7237B0001E4DF /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				211D71BB1CD0D8F600876426 /* Assets.xcassets */,
 				211D71BD1CD0D8F600876426 /* LaunchScreen.storyboard */,
 				211D71C01CD0D8F600876426 /* Info.plist */,
+				211D71E21CD0D92400876426 /* TaskManager.swift */,
+				217810F21CD7237B0001E4DF /* DetailedViewController.swift */,
 			);
 			path = CSE591ProjectiPad;
 			sourceTree = "<group>";
@@ -196,13 +202,16 @@
 				TargetAttributes = {
 					211D71AE1CD0D8F600876426 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 					211D71C41CD0D8F600876426 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 211D71AE1CD0D8F600876426;
 					};
 					211D71CF1CD0D8F600876426 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 211D71AE1CD0D8F600876426;
 					};
 				};
@@ -261,6 +270,8 @@
 			files = (
 				211D71B71CD0D8F600876426 /* SecondViewController.swift in Sources */,
 				211D71B31CD0D8F600876426 /* AppDelegate.swift in Sources */,
+				217810F31CD7237B0001E4DF /* DetailedViewController.swift in Sources */,
+				211D71E31CD0D92400876426 /* TaskManager.swift in Sources */,
 				211D71B51CD0D8F600876426 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSE591ProjectiPad.app/CSE591ProjectiPad";
 			};
 			name = Debug;
@@ -443,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSE591ProjectiPad.app/CSE591ProjectiPad";
 			};
 			name = Release;
@@ -454,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CSE591ProjectiPad;
 			};
 			name = Debug;
@@ -465,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.nbahl.CSE591ProjectiPadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CSE591ProjectiPad;
 			};
 			name = Release;
@@ -488,6 +505,7 @@
 				211D71DB1CD0D8F600876426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		211D71DC1CD0D8F600876426 /* Build configuration list for PBXNativeTarget "CSE591ProjectiPadTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +514,7 @@
 				211D71DE1CD0D8F600876426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		211D71DF1CD0D8F600876426 /* Build configuration list for PBXNativeTarget "CSE591ProjectiPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				211D71E11CD0D8F600876426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
